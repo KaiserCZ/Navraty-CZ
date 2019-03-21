@@ -1128,7 +1128,7 @@ func void DIA_Andre_Auslieferung_Dexter()
 	AI_Output(other,self,"DIA_Andre_Auslieferung_Dexter_01_00");	//Velitel tlupy jménem Dexter je mrtvý.
 	B_GiveInvItems(other,self,ItMi_DexterHead,1);
 	Npc_RemoveInvItems(self,ItMi_DexterHead,1);
-	AI_Output(self,other,"DIA_Andre_Auslieferung_Dexter_01_01");	//Konečně! Ten bývalý trestanec a jeho sebránka držela v šachu celý Khorinis. Nyní budou moci lidé dýchat volněji.
+	AI_Output(self,other,"DIA_Andre_Auslieferung_Dexter_01_01");	//Konečně! Ten bývalý trestanec a jeho sebránka držela v kleštích celý Khorinis. Nyní budou moci lidé dýchat volněji.
 	AI_Output(self,other,"DIA_Andre_Auslieferung_Nagur_08_02");	//Zasloužíte si zlato, a můj respekt.
 	B_GiveInvItems(self,other,ItMi_Gold,2500);
 
